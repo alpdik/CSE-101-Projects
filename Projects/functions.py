@@ -5,4 +5,4 @@ def trig(a,b):
 
 a=int(input("Enter the value of a: "))
 b=int(input("Enter the value of b: "))
-print("The hypotenuse of the trianglle is:", trig(a, b))
+print("The hypotenuse of the triangle is:", trig(a, b))
