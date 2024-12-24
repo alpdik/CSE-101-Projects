@@ -45,6 +45,7 @@ def checkwin():
 def checkvalid(x, y):
     if x < 1 or x > 3 or y < 1 or y > 3:
         return False
+
     elif B[x - 1][y - 1] != 0:
         return False
     else:
