@@ -8,4 +8,4 @@ def list_sum_av(lst, n=0, leng=0):
         leng+=1
         return list_sum_av(lst, n,leng)
 
-print(list_sum_av(exlist.copy()))
+print(list_sum_av(exlist))
